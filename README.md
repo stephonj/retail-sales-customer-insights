@@ -46,7 +46,7 @@ The dataset ends on December 9, 2011, making December an incomplete month. Custo
 
 # Dataset
 
-Source: Online Retail Dataset — UCI Machine Learning Repository
+Source: Online Retail Dataset — UCI Machine Learning Repository - https://archive.ics.uci.edu/dataset/352/online+retail
 
 The original dataset contains online retail transactions from December 2010 through December 2011.
 
