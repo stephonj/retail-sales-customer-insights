@@ -1,0 +1,21 @@
+LOAD DATA LOCAL INFILE '/home/placeholder/placeholder/OnlineRetail_utf8.csv'
+    -> INTO TABLE online_retail
+    -> CHARACTER SET utf8mb4
+    -> FIELDS TERMINATED BY ','
+    -> ENCLOSED BY '"'
+    -> LINES TERMINATED BY '\n'
+    -> IGNORE 1 ROWS
+    -> (
+    ->     InvoiceNo,
+    ->     StockCode,
+    ->     Description,
+    ->     Quantity,
+    ->     @InvoiceDate,
+    ->     UnitPrice,
+    ->     @CustomerID,
+    ->     Country
+    -> )
+    -> SET
+    ->     InvoiceDate = STR_TO_DATE(@InvoiceDate, '%m/%d/%Y %H:%i'),
+    ->     CustomerID = NULLIF(@CustomerID, '');
+
