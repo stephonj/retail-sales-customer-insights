@@ -1,6 +1,6 @@
 # retail-sales-customer-insights
 
-Summary
+# Summary
 
 Analysis of 541,909 online retail transactions using MySQL and Microsoft Excel. The project covers data cleaning, sales trends, product and country performance, and RFM customer segmentation, with findings presented in an Excel dashboard.
 
@@ -30,20 +30,20 @@ SQL	Sales metrics, product rankings, RFM segmentation
 
 Microsoft Excel	Data formatting, charts, KPI dashboard
 
-Analysis Performed
-Data cleaning: Investigated missing customer IDs, cancellations, and nonpositive quantities and prices.
+# Analysis Performed
+**Data cleaning**: Investigated missing customer IDs, cancellations, and nonpositive quantities and prices.
 
-Monthly sales: Compared gross sales, units sold, and invoice counts over time.
+**Monthly sales**: Compared gross sales, units sold, and invoice counts over time.
 
-Product performance: Identified the top 10 products by gross sales.
+**Product performance**: Identified the top 10 products by gross sales.
 
-Country analysis: Compared sales across countries.
+**Country analysis**: Compared sales across countries.
 
-Customer analysis: Ranked customers by sales value and average order value.
+**Customer analysis**: Ranked customers by sales value and average order value.
 
-RFM segmentation: Grouped identifiable customers by recency, frequency, and monetary value.
+**RFM segmentation**: Grouped identifiable customers by recency, frequency, and monetary value.
 
-Methodology Notes
+# Methodology Notes
 
 Gross sales = quantity x unit price.
 
@@ -56,7 +56,7 @@ Dataset
 
 Online Retail Dataset, UCI Machine Learning Repository. Transactions from December 2010 through December 2011.
 
-Project Files
+# Project Files
 sql/analysis_queries.sql: SQL analysis queries
 
 Retail_Sales_Customer_Insights.xlsx: Excel analysis and dashboard
