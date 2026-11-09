@@ -56,4 +56,4 @@ sql/analysis_queries.sql — SQL analysis queries
 
 Retail_Sales_Customer_Insights.xlsx — Excel analysis and dashboard
 
-screenshots/ — Dashboard screenshots, if included
+Dashboard.png — Dashboard screenshots
